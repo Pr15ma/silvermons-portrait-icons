@@ -1,0 +1,21 @@
+{
+  "key.silvermons_slot_icons.toggle": "Toggle Portrait Slot Icons",
+  "key.categories.silvermons_slot_icons": "Silvermons Slot Icons",
+  "silvermons_slot_icons.message.portrait": "Slot icons: portraits",
+  "silvermons_slot_icons.message.default": "Slot icons: default 3D models",
+  "silvermons_slot_icons.config.title": "Silvermons Slot Icons",
+  "silvermons_slot_icons.config.general": "General",
+  "silvermons_slot_icons.config.per_pokemon": "Per Pokémon",
+  "silvermons_slot_icons.config.enabled": "Portrait icons enabled",
+  "silvermons_slot_icons.config.enabled.tooltip": "Off restores Cobblemon's default 3D model in inventory slots.",
+  "silvermons_slot_icons.config.background": "Show portrait background",
+  "silvermons_slot_icons.config.background.tooltip": "Draw the party-slot backdrop behind the icon.",
+  "silvermons_slot_icons.config.scale": "Icon scale",
+  "silvermons_slot_icons.config.offset_x": "Horizontal offset",
+  "silvermons_slot_icons.config.offset_y": "Vertical offset",
+  "silvermons_slot_icons.config.keep_model": "Keep 3D model",
+  "silvermons_slot_icons.config.keep_model.tooltip": "Entries are 'species' or 'species|aspect', e.g. zygarde or exeggutor|alolan.",
+  "silvermons_slot_icons.config.overrides": "Adjustments",
+  "silvermons_slot_icons.config.overrides.tooltip": "Format 'species:scale,offsetX,offsetY' or 'species|aspect:scale,offsetX,offsetY'.",
+  "silvermons_slot_icons.config.overrides.invalid": "Expected species:scale,offsetX,offsetY"
+}

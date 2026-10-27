@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "silvermons_slot_icons",
+  "version": "${version}",
+  "name": "Silvermons Slot Icons",
+  "description": "Draws item-converted Cobblemon (cobblemon:pokemon_model) as the party-menu portrait, cropped to the inventory slot. Hand, ground and item-frame rendering are untouched.",
+  "authors": ["Prisma"],
+  "license": "MIT",
+  "icon": "assets/silvermons_slot_icons/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.silvermons.sloticons.SlotIconsClient"],
+    "modmenu": ["com.silvermons.sloticons.compat.ModMenuIntegration"]
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  },
+  "mixins": ["silvermons_slot_icons.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "cobblemon": ">=1.8.2"
+  }
+}
